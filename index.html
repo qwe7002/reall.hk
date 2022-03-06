@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ress@4.0.0/dist/ress.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Reall System</title>
+</head>
+<body>
+    <main>
+        <div class="inner">
+            <div class="title">
+                <div class="left">
+                    <img src="./assets/reall.svg" alt="Logo">
+                </div>
+                <div class="right">
+                    <h1>Reall System</h1>
+                    <p>Reall System is a global web service provider and open source software developer.</p>
+                </div>
+            </div>
+            <footer>
+                <span>&copy; 2022 Reall System</span>
+                <span id="beian" style="display: none">&nbsp;|&nbsp;<a href="https://beian.miit.gov.cn">闽ICP备16037503号</a></span>
+            </footer>
+        </div>
+    </main>
+    <script>
+        if (document.location.href.includes("reallct.com")) {
+            document.getElementById('beian').style.display = "";
+        }
+    </script>
+</body>
+</html>
